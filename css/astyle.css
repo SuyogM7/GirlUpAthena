@@ -1,0 +1,48 @@
+body{
+	width: 100%;
+	overflow-x: hidden;
+}
+h1{
+	font-weight: 400;
+    text-align: center;
+    font-size: 4em;
+}
+.img1 img{
+	height: 20em; 
+	display: block;
+	margin:auto;
+}
+.para p{
+	line-height: 2em;
+	font-size: 1.3em;
+}
+
+@media only screen and (max-width: 543px){
+	.img1 img{
+	height: 15em; 
+	
+	}
+	.para h1{
+    font-size: 2em;
+    
+	}
+
+	.para p{
+	line-height: 1.7em;
+	font-size: 1em;
+	}
+
+
+}
+@media only screen and (max-width: 424px){
+	.img1 img{
+	height: 12em; 
+	
+}
+}
+@media only screen and (max-width: 350px){
+	.img1 img{
+	height: 10em; 
+	
+}
+}
